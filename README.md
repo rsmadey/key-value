@@ -1,7 +1,7 @@
-# key-value
-simple key-value memory store
+# key-value\n
+simple key-value memory store\n
 
-methods
+methods\n
 
   Put
     Params
@@ -27,10 +27,10 @@ Examples
     await database.put('hello','world'))
     value = await database.retrieve('hello')
     print(value)
-    ````
+    ```
     Expected output:
 
-    ```
+    `
     world
-    ```
+    `
 
