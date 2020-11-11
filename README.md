@@ -9,7 +9,7 @@ simple key-value memory store
 
     -key (alphanumeric of less than 64 characters in length)
 
-    -value () 
+    -value (alphanumeric of less than 128 characters in length) 
 
     -ttl: (seconds to maintain the value for retrieval
 
@@ -29,11 +29,14 @@ simple key-value memory store
 
     Return
 
+    -value if value has been set and is not expired
+    -KeyError if value cannot be found
+
   Delete
 
     Params
 
-    -key()
+    -key (alphanumeric of less than 64 characters in length)
 
     Return
 
